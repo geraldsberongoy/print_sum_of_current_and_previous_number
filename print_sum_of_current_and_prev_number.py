@@ -20,3 +20,9 @@
 # assign prev_num to 0
 # for loop(10), first 10 numbers
 #   print(current which is i, previous num, sum)
+#   update the previous number
+
+previous_num = 0
+for current in range(10):
+    print(f"Current number: {current}. Previous number: {previous_num}. Sum: {current + previous_num}")
+    previous_num = current
