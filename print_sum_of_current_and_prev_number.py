@@ -15,3 +15,8 @@
 #   7, current=7, updated prev=6, sum=13, update prev 
 #   8, current=8, updated prev=7, sum=15, update prev 
 #   9, current=9, updated prev=8, sum=17, update prev
+
+# pseudocode
+# assign prev_num to 0
+# for loop(10), first 10 numbers
+#   print(current which is i, previous num, sum)
